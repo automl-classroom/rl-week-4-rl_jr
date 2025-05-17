@@ -28,7 +28,9 @@ In preparation for your project and further RL experiments, use [RLiable](https:
 
 Discussion prompts for Presentation: 
 - What changes when using RLiable vs. plain averages?
+    - the interval, in which in the performance varies, is also shown
 - Do you feel more confident in the results? Why or why not?
+    - I feel more confident in them, because I get a sense for how much the performance differs over time for different seeds
 
 ## Level 3
 As discussed in the lecture, the base DQN implementation suffers from several limitations, such as Overestimation and sample inefficiency. To address these, you will incorporate two key enhancements from the [Rainbow DQN paper](https://arxiv.org/pdf/1710.02298.pdf):
